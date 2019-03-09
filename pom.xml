@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.automation</groupId>
+	<artifactId>my-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<description>This is my parent project</description>
+
+	<properties>
+
+
+	</properties>
+
+	<!-- <scm> <connection>scm:git:git@github.com:suresh9843/SureshRepository.git</connection> 
+		<developerConnection>scm:git: git@github.com:suresh9843/SimpleMavenProject1.git</developerConnection> 
+		<url>https://github.com:suresh9843/SimpleMavenProject1</url> <tag>HEAD</tag> 
+		</scm> -->
+
+	<scm>
+		<connection>scm:git:git@github.com:suresh9843/my-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:suresh9843/my-parent.git</developerConnection>
+		<url>https://github.com:suresh9843/my-parenta</url>
+	</scm>
+
+	<repositories>
+		<repository>
+			<id>myRemoteRepository</id>
+			<url>https://mymavenrepo.com/repo/QRXL9PQ5CVoO0NeJfCgQ/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>SnapshotVersion</id>
+			<url>https://mymavenrepo.com/repo/k2vBozTB2K0HhFn4xURQ/</url>
+		</snapshotRepository>
+
+		<repository>
+			<id>ReleaseVersion</id>
+			<url>https://mymavenrepo.com/repo/k2vBozTB2K0HhFn4xURQ/</url>
+		</repository>
+	</distributionManagement>
+</project>
