@@ -20,7 +20,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:suresh9843/my-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:suresh9843/my-parent.git</developerConnection>
-		<url>https://github.com:suresh9843/my-parenta</url>
+		<url>https://github.com:suresh9843/my-parent</url>
 	</scm>
 
 	<repositories>
